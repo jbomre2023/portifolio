@@ -1,0 +1,59 @@
+.secCursos{
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 10px solid #8FBC8F;
+	margin-top: 100px;
+	padding-top: 40px;
+
+}
+.tituloCurso{
+	font-size: 90px;
+	font-family: "Press Start 2P" , cursive;
+	word-wrap: break-word;
+	max-width:300px;
+}
+	
+.listaCursos{
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+}
+.divCursos{
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap:15px;
+}
+.tituloCursos{
+	color:#8FBC8F;
+	font-size: 20px;
+
+}
+.subTituloCursos{
+	color:#ffe42a;
+	font-size: 18px;
+	position: relative;
+}
+.subTituloCursos::before{
+	content: '';
+	height: 20px;
+	width: 10px;
+	background-color: red;
+	position: absolute;
+	left: -20px;
+
+}
+.textoCursos{
+	line-height: 1.2;
+}
+.horaCursos{
+	color:red;
+}
+.h3{
+	color: #7c93f6;
+}

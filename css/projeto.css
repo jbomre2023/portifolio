@@ -1,0 +1,62 @@
+.secProjetos{
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap:30px;
+	border-top: 5px solid #c1002c;
+	margin-top: 20PX;
+	padding-top: 40px;
+
+}
+.tituloProjetosH1{
+	font-size: 40px;
+	font-family:  "Press Start 2P" , cursive;
+	position: relative;
+}
+
+.tituloProjetosH1::after{
+	content: '';
+	width: 90PX;
+	height: 90PX;
+	background-image: url("../imagem/detalhes/detalhe_duplo.png");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: -35px;
+	right: -35px;
+	z-index: -1;
+}
+
+.imagemProjetos{
+	max-width: 300px;
+	border-radius: 20px;
+}
+.divListaProjetos{
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+}
+.projeto{
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+}
+.infoProjetos{
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+}
+.tituloProjetosH2{
+	font-size: 22px;
+}
+.subTituloProjetosH3{
+	color:#7c93f6;
+	font-style: italic;
+}

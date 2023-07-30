@@ -1,0 +1,25 @@
+.footer{
+	border-top: 5px solid #c1002c;
+	margin-top: 50PX;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap:10px;
+
+}
+
+.direitos{
+	font-size: 18px;
+}
+
+.modulo{
+	color:#7b7579;
+	font-size: 16px;
+}
+.autor{
+	color:#8FBC8F;
+	font-size: 14px;
+	font-style: italic;
+}

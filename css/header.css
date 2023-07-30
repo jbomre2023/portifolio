@@ -1,0 +1,44 @@
+.logo{
+	max-width: 60px;
+	cursor: pointer;
+}
+.logo:hover{
+	transform: scale(1.1);
+}
+
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "Press Start 2P" , cursive;
+	padding: 30px;
+}
+
+.lista{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:30px;
+}
+.lista li a{
+	color:#8FBC8F;
+	
+}
+.lista li a:hover{
+	color: white;
+}
+.curriculo{
+	background-color: #8FBC8F;
+	color: white;
+	font-size: 14px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: black;
+}
+
+.curriculo:hover{
+	background-color:#122d50;
+	color: white;
+
+}
